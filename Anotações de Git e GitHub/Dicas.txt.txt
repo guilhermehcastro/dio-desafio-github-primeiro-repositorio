@@ -1,0 +1,38 @@
+# Trocar de usuário:
+git config --global user.name "guilherme castro"
+
+#Trocar de email:
+git config --global user.email guilhermecastro@gmail.com
+
+#Listar configurações:
+git config --list
+
+#Novo repositório:
+git init
+
+#Verificar status do repositório:
+git status
+
+#Adicionar arquivo:
+git add * / git add . (para adicionar todos os arquivos) ou git add meu_arquivo.txt (para um arquivo específico)
+
+#Comitar arquivo:
+git commit -m "escrever o que foi add ou modificado"
+
+#Remover arquivo:
+git rm meu_arquivo.txt
+
+#Remover diretório:
+git rm -r diretorio
+
+#Ver histórico:
+git log
+
+#Alterar diretório:
+git checkout meu_arquivo.txt
+
+#Enviar arquivo para repositório remoto:
+git push -u origin master
+
+#Atualizar repositório local de acordo com o remoto:
+git pull
