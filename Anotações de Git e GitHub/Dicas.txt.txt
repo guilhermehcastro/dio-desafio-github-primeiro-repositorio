@@ -32,7 +32,7 @@ git log
 git checkout meu_arquivo.txt
 
 #Enviar arquivo para repositório remoto:
-git push -u origin master
+git push origin master/main
 
 #Atualizar repositório local de acordo com o remoto:
 git pull
